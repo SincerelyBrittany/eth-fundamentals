@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ganache": "ganache --wallet.seed myCustomSeed"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ethereumjs-tx": "^2.1.2",
+    "ganache": "^6.4.5",
+    "ganache-cli": "^6.12.2",
     "web3": "^1.6.1"
   }
 }
