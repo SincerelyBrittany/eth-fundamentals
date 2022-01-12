@@ -190,3 +190,7 @@ Send the transaction to the network
 #########################################\*/
 
 // -- Step 8: Send the serialized signed transaction to the Ethereum network. var serializedTransaction = transaction.serialize(); web3.eth.sendSignedTransaction(serializedTransaction);
+
+# Found some errors and used StackOverFlow to update the code
+
+> https://ethereum.stackexchange.com/questions/84357/typeerror-ethereumtransaction-is-not-a-constructor
